@@ -27,6 +27,7 @@ export default class Login extends React.Component {
       email: '',
       password: ''
     })
+
   }
 
   componentDidMount(){
@@ -35,6 +36,10 @@ export default class Login extends React.Component {
         console.log(user)
       }
     })
+  }
+
+  navigateHome = () => {
+    this.props.navigation.navigate("Home")
   }
 
   signUpUser = (email, password) => {
@@ -52,9 +57,10 @@ export default class Login extends React.Component {
   }
 
   loginUser = (email, password) => {
+    const navigate = this.navigateHome
     try {
       firebase.auth().signInWithEmailAndPassword(email, password).then(function (user) {
-        console.log(user)
+        navigate()
       })
     }
     catch (error) {

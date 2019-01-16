@@ -589,3 +589,591 @@
     "vowel": "o",
     "pronouce": "ckwo"
   },
+  {
+    "id": 85,
+    "letter": "ለ",
+    "ipa": "l",
+    "vowel": "ɐ",
+    "pronouce": "le"
+  },
+  {
+    "id": 86,
+    "letter": "ሉ",
+    "ipa": "l",
+    "vowel": "u",
+    "pronouce":"lu"
+  },
+  {
+    "id": 87,
+    "letter": "ሊ",
+    "ipa": "l",
+    "vowel": "i",
+    "pronouce": "li"
+  },
+  {
+    "id": 88,
+    "letter": "ላ",
+    "ipa": "lʼ",
+    "vowel": "ä",
+    "pronouce": "la"
+  },
+  {
+    "id": 89,
+    "letter": "ሌ",
+    "ipa": "l",
+    "vowel": "e",
+    "pronouce": "lye"
+  },
+  {
+    "id": 90,
+    "letter": "ል",
+    "ipa": "lʼ",
+    "vowel": "ɨ",
+    "pronouce": "l"
+  },
+  {
+    "id": 91,
+    "letter": "ሎ",
+    "ipa": "lʼ",
+    "vowel": "o",
+    "pronouce": "lo"
+  },
+  {
+    "id": 92,
+    "letter": "መ",
+    "ipa": "m",
+    "vowel": "ɐ",
+    "pronouce": "me"
+  },
+  {
+    "id": 93,
+    "letter": "ሙ",
+    "ipa": "m",
+    "vowel": "u",
+    "pronouce":"mu"
+  },
+  {
+    "id": 94,
+    "letter": "ሚ",
+    "ipa": "m",
+    "vowel": "i",
+    "pronouce": "mi"
+  },
+  {
+    "id": 95,
+    "letter": "ማ",
+    "ipa": "mʼ",
+    "vowel": "ä",
+    "pronouce": "ma"
+  },
+  {
+    "id": 96,
+    "letter": "ሜ",
+    "ipa": "m",
+    "vowel": "e",
+    "pronouce": "mye"
+  },
+  {
+    "id": 97,
+    "letter": "ም",
+    "ipa": "m",
+    "vowel": "ɨ",
+    "pronouce": "m"
+  },
+  {
+    "id": 98,
+    "letter": "ሞ",
+    "ipa": "m",
+    "vowel": "o",
+    "pronouce": "mo"
+  },
+  {
+    "id": 92,
+    "letter": "ነ",
+    "ipa": "n",
+    "vowel": "ɐ",
+    "pronouce": "ne"
+  },
+  {
+    "id": 93,
+    "letter": "ኑ",
+    "ipa": "n",
+    "vowel": "u",
+    "pronouce":"nu"
+  },
+  {
+    "id": 94,
+    "letter": "ኒ",
+    "ipa": "n",
+    "vowel": "i",
+    "pronouce": "ni"
+  },
+  {
+    "id": 95,
+    "letter": "ና",
+    "ipa": "n",
+    "vowel": "ä",
+    "pronouce": "na"
+  },
+  {
+    "id": 96,
+    "letter": "ኔ",
+    "ipa": "n",
+    "vowel": "e",
+    "pronouce": "nye"
+  },
+  {
+    "id": 97,
+    "letter": "ን",
+    "ipa": "n",
+    "vowel": "ɨ",
+    "pronouce": "n"
+  },
+  {
+    "id": 98,
+    "letter": "ኖ",
+    "ipa": "n",
+    "vowel": "o",
+    "pronouce": "no"
+  },
+  {
+    "id": 99,
+    "letter": "ኘ",
+    "ipa": "n",
+    "vowel": "ɐ",
+    "pronouce": "nje"
+  },
+  {
+    "id": 100,
+    "letter": "ኙ",
+    "ipa": "n",
+    "vowel": "u",
+    "pronouce":"nju"
+  },
+  {
+    "id": 101,
+    "letter": "ኚ",
+    "ipa": "n",
+    "vowel": "i",
+    "pronouce": "nji"
+  },
+  {
+    "id": 102,
+    "letter": "ኛ",
+    "ipa": "n",
+    "vowel": "ä",
+    "pronouce": "nja"
+  },
+  {
+    "id": 103,
+    "letter": "ኜ",
+    "ipa": "n",
+    "vowel": "e",
+    "pronouce": "njye"
+  },
+  {
+    "id": 104,
+    "letter": "ኝ",
+    "ipa": "n",
+    "vowel": "ɨ",
+    "pronouce": "nj"
+  },
+  {
+    "id": 105,
+    "letter": "ኞ",
+    "ipa": "n",
+    "vowel": "o",
+    "pronouce": "njo"
+  },
+  {
+    "id": 106,
+    "letter": "ፐ",
+    "ipa": "p",
+    "vowel": "ɐ",
+    "pronouce": "pe"
+  },
+  {
+    "id": 107,
+    "letter": "ፑ",
+    "ipa": "p",
+    "vowel": "u",
+    "pronouce":"pu"
+  },
+  {
+    "id": 108,
+    "letter": "ፒ",
+    "ipa": "p",
+    "vowel": "i",
+    "pronouce": "pi"
+  },
+  {
+    "id": 109,
+    "letter": "ፓ",
+    "ipa": "p",
+    "vowel": "ä",
+    "pronouce": "pa"
+  },
+  {
+    "id": 110,
+    "letter": "ፔ",
+    "ipa": "p",
+    "vowel": "e",
+    "pronouce": "pye"
+  },
+  {
+    "id": 111,
+    "letter": "ፕ",
+    "ipa": "p",
+    "vowel": "ɨ",
+    "pronouce": "p"
+  },
+  {
+    "id": 112,
+    "letter": "ፖ",
+    "ipa": "p",
+    "vowel": "o",
+    "pronouce": "po"
+  },
+  {
+    "id": 113,
+    "letter": "ጰ",
+    "ipa": "p'",
+    "vowel": "ɐ",
+    "pronouce": "ppe"
+  },
+  {
+    "id": 114,
+    "letter": "ጱ",
+    "ipa": "p'",
+    "vowel": "u",
+    "pronouce":"ppu"
+  },
+  {
+    "id": 115,
+    "letter": "ጲ",
+    "ipa": "p'",
+    "vowel": "i",
+    "pronouce": "ppi"
+  },
+  {
+    "id": 116,
+    "letter": "ጳ",
+    "ipa": "p'",
+    "vowel": "ä",
+    "pronouce": "ppa"
+  },
+  {
+    "id": 117,
+    "letter": "ጴ",
+    "ipa": "p'",
+    "vowel": "e",
+    "pronouce": "ppye"
+  },
+  {
+    "id": 118,
+    "letter": "ጵ",
+    "ipa": "p'",
+    "vowel": "ɨ",
+    "pronouce": "pp"
+  },
+  {
+    "id": 119,
+    "letter": "ጶ",
+    "ipa": "p'",
+    "vowel": "o",
+    "pronouce": "ppo"
+  },
+  {
+    "id": 120,
+    "letter": "ረ",
+    "ipa": "r",
+    "vowel": "ɐ",
+    "pronouce": "re"
+  },
+  {
+    "id": 121,
+    "letter": "ሩ",
+    "ipa": "r",
+    "vowel": "u",
+    "pronouce":"ru"
+  },
+  {
+    "id": 122,
+    "letter": "ሪ",
+    "ipa": "r",
+    "vowel": "i",
+    "pronouce": "ri"
+  },
+  {
+    "id": 123,
+    "letter": "ራ",
+    "ipa": "r",
+    "vowel": "ä",
+    "pronouce": "ra"
+  },
+  {
+    "id": 124,
+    "letter": "ሬ",
+    "ipa": "r",
+    "vowel": "e",
+    "pronouce": "rye"
+  },
+  {
+    "id": 125,
+    "letter": "ር",
+    "ipa": "r",
+    "vowel": "ɨ",
+    "pronouce": "r"
+  },
+  {
+    "id": 126,
+    "letter": "ሮ",
+    "ipa": "r",
+    "vowel": "o",
+    "pronouce": "ro"
+  },
+  {
+    "id": 127,
+    "letter": "ሰ",
+    "ipa": "s",
+    "vowel": "ɐ",
+    "pronouce": "se"
+  },
+  {
+    "id": 128,
+    "letter": "ሱ",
+    "ipa": "s",
+    "vowel": "u",
+    "pronouce":"su"
+  },
+  {
+    "id": 129,
+    "letter": "ሲ",
+    "ipa": "s",
+    "vowel": "i",
+    "pronouce": "si"
+  },
+  {
+    "id": 130,
+    "letter": "ሳ",
+    "ipa": "s",
+    "vowel": "ä",
+    "pronouce": "sa"
+  },
+  {
+    "id": 131,
+    "letter": "ሴ",
+    "ipa": "s",
+    "vowel": "e",
+    "pronouce": "sye"
+  },
+  {
+    "id": 132,
+    "letter": "ስ",
+    "ipa": "s",
+    "vowel": "ɨ",
+    "pronouce": "s"
+  },
+  {
+    "id": 133,
+    "letter": "ሶ",
+    "ipa": "s",
+    "vowel": "o",
+    "pronouce": "so"
+  },
+  {
+    "id": 134,
+    "letter": "ሠ",
+    "ipa": "c",
+    "vowel": "ɐ",
+    "pronouce": "ce"
+  },
+  {
+    "id": 135,
+    "letter": "ሡ",
+    "ipa": "c",
+    "vowel": "u",
+    "pronouce":"cu"
+  },
+  {
+    "id": 136,
+    "letter": "ሢ",
+    "ipa": "c",
+    "vowel": "i",
+    "pronouce": "ci"
+  },
+  {
+    "id": 137,
+    "letter": "ሣ",
+    "ipa": "c",
+    "vowel": "ä",
+    "pronouce": "ca"
+  },
+  {
+    "id": 138,
+    "letter": "ሤ",
+    "ipa": "c",
+    "vowel": "e",
+    "pronouce": "cye"
+  },
+  {
+    "id": 139,
+    "letter": "ሥ",
+    "ipa": "c",
+    "vowel": "ɨ",
+    "pronouce": "c"
+  },
+  {
+    "id": 140,
+    "letter": "ሦ",
+    "ipa": "c",
+    "vowel": "o",
+    "pronouce": "co"
+  },
+  {
+    "id": 141,
+    "letter": "ጸ",
+    "ipa": "t",
+    "vowel": "ɐ",
+    "pronouce": "tze"
+  },
+  {
+    "id": 142,
+    "letter": "ጹ",
+    "ipa": "t",
+    "vowel": "u",
+    "pronouce":"tzu"
+  },
+  {
+    "id": 143,
+    "letter": "ጺ",
+    "ipa": "t",
+    "vowel": "i",
+    "pronouce": "tzi"
+  },
+  {
+    "id": 144,
+    "letter": "ጻ",
+    "ipa": "t",
+    "vowel": "ä",
+    "pronouce": "tza"
+  },
+  {
+    "id": 145,
+    "letter": "ጼ",
+    "ipa": "t",
+    "vowel": "e",
+    "pronouce": "tzye"
+  },
+  {
+    "id": 146,
+    "letter": "ጽ",
+    "ipa": "t",
+    "vowel": "ɨ",
+    "pronouce": "tz"
+  },
+  {
+    "id": 147,
+    "letter": "ጾ",
+    "ipa": "t",
+    "vowel": "o",
+    "pronouce": "tzo"
+  },
+  {
+    "id": 148,
+    "letter": "ፀ",
+    "ipa": "t'",
+    "vowel": "ɐ",
+    "pronouce": "tze"
+  },
+  {
+    "id": 149,
+    "letter": "ፁ",
+    "ipa": "t'",
+    "vowel": "u",
+    "pronouce":"tzu"
+  },
+  {
+    "id": 150,
+    "letter": "ፂ",
+    "ipa": "t'",
+    "vowel": "i",
+    "pronouce": "tzi"
+  },
+  {
+    "id": 151,
+    "letter": "ፃ",
+    "ipa": "t'",
+    "vowel": "ä",
+    "pronouce": "tza"
+  },
+  {
+    "id": 152,
+    "letter": "ፄ",
+    "ipa": "t'",
+    "vowel": "e",
+    "pronouce": "tzye"
+  },
+  {
+    "id": 153,
+    "letter": "ፅ",
+    "ipa": "t'",
+    "vowel": "ɨ",
+    "pronouce": "tz"
+  },
+  {
+    "id": 154,
+    "letter": "ፆ",
+    "ipa": "t'",
+    "vowel": "o",
+    "pronouce": "tzo"
+  },
+  {
+    "id": 155,
+    "letter": "ፀ",
+    "ipa": "t'",
+    "vowel": "ɐ",
+    "pronouce": "tze"
+  },
+  {
+    "id": 156,
+    "letter": "ሸ",
+    "ipa": "s",
+    "vowel": "u",
+    "pronouce":"sche"
+  },
+  {
+    "id": 157,
+    "letter": "ሹ",
+    "ipa": "s",
+    "vowel": "i",
+    "pronouce": "schi"
+  },
+  {
+    "id": 158,
+    "letter": "ሻ",
+    "ipa": "s",
+    "vowel": "ä",
+    "pronouce": "scha"
+  },
+  {
+    "id": 159,
+    "letter": "ሻ",
+    "ipa": "s",
+    "vowel": "e",
+    "pronouce": "schye"
+  },
+  {
+    "id": 160,
+    "letter": "ሼ",
+    "ipa": "s'",
+    "vowel": "ɨ",
+    "pronouce": "sch"
+  },
+  {
+    "id": 161,
+    "letter": "ሾ",
+    "ipa": "s",
+    "vowel": "o",
+    "pronouce": "scho"
+  },
