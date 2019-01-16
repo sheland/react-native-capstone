@@ -45,11 +45,12 @@ export default class Login extends React.Component {
   signUpUser = (email, password) => {
     try {
       if (this.state.password.length < 6) {
-        alert("Please enter atleast 6 characters")
+        alert("Please enter at least 6 characters")
         return;
       }
 
       firebase.auth().createUserWithEmailAndPassword(email, password)
+
     }
     catch (error) {
       console.log(error.toString())
@@ -74,6 +75,7 @@ export default class Login extends React.Component {
 
     if (type === 'success') {
       const credential = firebase.auth.FacebookAuthProvider.credential(token)
+      const navigate = this.navigateHome
 
       firebase.auth().signInWithCredential(credential).catch((error) => {
         console.log(error)

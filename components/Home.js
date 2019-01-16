@@ -12,9 +12,18 @@ export default class Home extends React.Component {
       <View style={styles.container}>
         <Text>Hello from Home!</Text>
         <Button
-          title="Go to Chart"
+          title="Alphabet Chart"
           onPress={() => this.props.navigation.navigate('Chart')}
         />
+        <Button
+          title="Quiz me!"
+          onPress={() => this.props.navigation.navigate('Quiz')}
+        />
+        <Button
+          title="About Tigrinya"
+          onPress={() => this.props.navigation.navigate('About')}
+        />
+
       </View>
     );
   }
