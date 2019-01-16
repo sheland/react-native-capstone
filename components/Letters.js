@@ -27,17 +27,19 @@ const Letters = (props) => {
 
 const styles = StyleSheet.create({
   letterformat: {
-    borderWidth: 2,
-    borderColor: "red",
+    borderWidth: 1,
+    borderColor: "powderblue",
     width: "14%",
+    alignItems: 'center'
 
   },
   container: {
-    backgroundColor:'#4286f4',
+    backgroundColor:'white',
     flex: 1,
     flexDirection: 'row',
     width: '100%',
-    flexWrap: 'wrap'
+    flexWrap: 'wrap',
+
 
 
   }
