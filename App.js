@@ -15,7 +15,7 @@ const AppNavigator = createStackNavigator(
     Quiz: {screen: Quiz},
   },
   {
-      initialRouteName: "Login"
+      initialRouteName: "Chart"
   });
 
 export default createAppContainer(AppNavigator);

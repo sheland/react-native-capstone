@@ -1,16 +1,20 @@
 import React from 'react';
+import data from '../data/letters.json';
 import {
   StyleSheet,
   Text,
-  View,
+  ScrollView
 } from 'react-native';
+import Letters from './Letters'
 
 export default class Chart extends React.Component {
-  render() {
+  render(){
+
     return (
-      <View style={styles.container}>
+      <ScrollView style={styles.container}>
         <Text>Hello from Chart!</Text>
-      </View>
+        <Letters data={data}/>
+      </ScrollView>
     );
   }
 }
@@ -18,8 +22,6 @@ export default class Chart extends React.Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+    backgroundColor: '#fff'
   },
 });

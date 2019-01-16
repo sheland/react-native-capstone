@@ -20,7 +20,7 @@
     "vowel": "i",
     "pronouce": "bi"
 
-  }
+  },
   {
     "id": 4,
     "letter": "ባ",
@@ -70,7 +70,7 @@
     "vowel": "i",
     "pronouce": "di"
 
-  }
+  },
   {
     "id": 11,
     "letter": "ዳ",
@@ -723,14 +723,14 @@
     "pronouce": "nye"
   },
   {
-    "id": 97,
+    "id": 241,
     "letter": "ን",
     "ipa": "n",
     "vowel": "ɨ",
     "pronouce": "n"
   },
   {
-    "id": 98,
+    "id": 139,
     "letter": "ኖ",
     "ipa": "n",
     "vowel": "o",
@@ -1017,7 +1017,7 @@
     "pronouce": "cye"
   },
   {
-    "id": 139,
+    "id": 240,
     "letter": "ሥ",
     "ipa": "c",
     "vowel": "ɨ",
@@ -1715,4 +1715,5 @@
     "ipa": "a",
     "vowel": "o",
     "pronouce": "oo"
-  },
+  }
+]
