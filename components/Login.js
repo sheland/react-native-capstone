@@ -2,6 +2,7 @@ import React from 'react';
 import {
   StyleSheet,
   Text,
+  ImageBackground
 } from 'react-native';
 import * as firebase from 'firebase';
 
@@ -75,7 +76,7 @@ export default class Login extends React.Component {
 
     if (type === 'success') {
       const credential = firebase.auth.FacebookAuthProvider.credential(token)
-      const navigate = this.navigateHome
+
 
       firebase.auth().signInWithCredential(credential).catch((error) => {
         console.log(error)
@@ -86,8 +87,13 @@ export default class Login extends React.Component {
   render() {
     return (
       <Container style={styles.container}>
+      <ImageBackground
+        source={require('../img/ag.jpg')}
+        style={styles.pic}>
+      </ImageBackground>
+        <Text style={styles.title}>Learn Tigrinya    ትግርኛ</Text>
         <Form>
-          <Item floatingLabel>
+          <Item floatingLabel style={styles.label}>
             <Label>Email</Label>
             <Input
               autoCorrect={false}
@@ -96,7 +102,7 @@ export default class Login extends React.Component {
             />
           </Item>
 
-          <Item floatingLabel>
+          <Item floatingLabel style={styles.label}>
             <Label>Password</Label>
             <Input
               secureTextEntry={true}
@@ -141,8 +147,34 @@ export default class Login extends React.Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
+    backgroundColor: "white",
     justifyContent: 'center',
+    width: "100%"
+
   },
+  title: {
+    color: 'white',
+    fontWeight: 'bold',
+    fontSize: 50,
+    fontFamily: 'AmericanTypewriter-CondensedBold',
+    textAlign: 'center',
+    position:'absolute',
+    top: 0,
+    left: 0,
+    right: 0,
+    bottom: 0,
+
+
+
+  },
+  pic: {
+    flex: 1,
+    width: '100%',
+    height: '100%',
+
+  },
+  label: {
+    height: "20%"
+  }
+
 });

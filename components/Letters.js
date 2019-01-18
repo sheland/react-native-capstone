@@ -5,22 +5,31 @@ import {
   View,
 } from 'react-native';
 
-
 const Letter = (props) => {
   return (
     <View style={styles.letterformat}>
-      <Text>{props.letter}</Text>
+      <Text onPress={(e) => {
+        this.props.navigation.navigate('Details')
+
+
+      }} >{props.letter}</Text>
     </View>
   )
 }
 
+
+
 const Letters = (props) => {
-  const letters = props.data.map((letterData) => {
-    return (<Letter key={letterData.id} {...letterData}/>)
-  });
+  console.log(props)
   return (
     <View style={styles.container}>
-      {letters}
+      {
+        props.data.map((letterData,index) => {
+          return (
+            <Letter key={index} letter={letterData.letter} />
+          )
+        })
+      }
     </View>
   )
 }

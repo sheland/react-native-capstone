@@ -5,6 +5,8 @@ import Home from './components/Home'
 import Chart from './components/Chart'
 import Quiz from './components/Quiz'
 import About from './components/About'
+import Details from './components/Details'
+
 
 const AppNavigator = createStackNavigator(
   {
@@ -13,6 +15,7 @@ const AppNavigator = createStackNavigator(
     Chart: {screen: Chart},
     About: {screen: About},
     Quiz: {screen: Quiz},
+    Details: {screen: Details}
   },
   {
       initialRouteName: "Chart"

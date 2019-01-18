@@ -10,7 +10,6 @@ export default class About extends React.Component {
     return (
       <View style={styles.container}>
         <Text>Hello from About!</Text>
-    
       </View>
     );
   }

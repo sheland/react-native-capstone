@@ -9,7 +9,8 @@ export default class Quiz extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text>Hello from Quiz!</Text>
+        <Text style={styles.title}>Test your knowledge here!</Text>
+
       </View>
     );
   }
@@ -22,4 +23,20 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+  title: {
+    color: 'black',
+    fontWeight: 'bold',
+    fontSize: 30,
+    fontFamily: 'AmericanTypewriter-CondensedBold',
+    textAlign: 'center',
+    height: "90%"
+
+  },
+  text: {
+    color: 'black',
+    fontSize: 15,
+    fontFamily: 'AmericanTypewriter-CondensedBold',
+    height: "70%"
+
+  }
 });
