@@ -164,8 +164,6 @@ const styles = StyleSheet.create({
     right: 0,
     bottom: 0,
 
-
-
   },
   pic: {
     flex: 1,

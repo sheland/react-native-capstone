@@ -12,7 +12,6 @@ export default class Details extends React.Component {
     return (
       <ScrollView style={styles.container}>
         <Text>Hello from Details!</Text>
-        <Details Letters={Letters}/>
       </ScrollView>
     );
   }

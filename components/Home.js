@@ -39,7 +39,7 @@ export default class Home extends React.Component {
           onPress={() => this.props.navigation.navigate('About')}
             buttonStyle={{
               backgroundColor: "rgba(92, 99,216, 1)",
-              
+
             }}
 
         />
@@ -55,15 +55,16 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
+    marginBottom: 100
 
   },
   title: {
     color: 'steelblue',
     fontWeight: 'bold',
-    fontSize: 80,
+    fontSize: 60,
     fontFamily: 'AmericanTypewriter-CondensedBold',
     textAlign: 'center',
-    height: '50%',
+    height: '40%',
   },
   pic: {
     flex: 1,
