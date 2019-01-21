@@ -78,7 +78,10 @@ export default class Login extends React.Component {
       const credential = firebase.auth.FacebookAuthProvider.credential(token)
 
 
-      firebase.auth().signInWithCredential(credential).catch((error) => {
+      firebase.auth().signInWithCredential(credential).then((response) => {
+        this.navigateHome()
+        console.log(response)
+      }).catch(error => {
         console.log(error)
       })
     }

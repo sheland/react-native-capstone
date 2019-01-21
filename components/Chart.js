@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import { StyleSheet, View, Text, TouchableOpacity, Alert, ScrollView } from 'react-native';
-import { Table, TableWrapper,Col, Cols, Cell, Row } from 'react-native-table-component';
+import { StyleSheet, View, Text, TouchableOpacity, ScrollView } from 'react-native';
+import { Table, TableWrapper,Col, Cols, Cell } from 'react-native-table-component';
 import data from '../data/letters.json';
+import allLetters from '../data/allletters.json'
 import letterheaderdata from '../data/letterheaders.json';
 
 
@@ -10,35 +11,29 @@ export default class ExampleFive extends Component {
     super(props);
     const elementText = (value) => (
       <TouchableOpacity
-        onPress={() => this._alertIndex('hey')}>
+        onPress={() => this.handleCharacterSelect(value)}>
         <View style={styles.btn}>
-          <Text style={styles.btnText}></Text>
+          <Text style={styles.btnText}>{value}</Text>
         </View>
       </TouchableOpacity>
     );
 
     this.state = {
-
-
       tableData: [
-        ['ɐ', 'በ','3', '4', '5', '6', '7'],
-        ['u', 'ቡ', '3', '4', '5', '6', '7'],
-        ['i', 'ቢ', 'c', 'd', '5', '6', '7'],
-        ['ä', 'ባ', 'c', 'd', '5', '6', '7'],
-        ['e', 'ቤ', 'c', 'd', '5', '6', '7'],
-        ['ɨ', 'ብ', 'c', 'd', '5', '6', '7'],
-        ['o', 'ቦ', 'c', 'd', '5', '6', '7'],
-
+        ['ɐ', elementText('በ'),elementText('ደ'), elementText('ጁ'), elementText('ፉ'), elementText('ጉ'), elementText('ሃ')],
+        ['u', elementText('ቡ'), elementText('ዱ'), elementText('ጂ'), elementText('ፊ'), elementText('ጊ'), elementText('ሄ')],
+        ['i', elementText('ቢ'), elementText('ዳ'), elementText('ጃ'), elementText('ፋ'), elementText('ጋ'), elementText('ህ')],
+        ['ä', elementText('ባ'), elementText('ዴ'), elementText('ጄ'), elementText('ፌ'), elementText('ጌ'), elementText('ሆ')],
+        ['e', elementText('ቤ'), elementText('ድ'), elementText('ጅ'), elementText('ፍ'), elementText('ሁ'), elementText('ኀ')],
+        ['ɨ', elementText('ብ'), elementText('ዶ'), elementText('ጆ'), elementText('ፎ'), elementText('ሀ'), elementText('ኁ')],
+        ['o', elementText('ቦ'), elementText('ጀ'), elementText('ፈ'), elementText('ገ'), elementText('ሂ'), elementText('ኂ')],
       ]
     }
   }
 
-  _alertIndex(value) {
-    Alert.alert(`This is column ${value}`);
-  }
-
-  handleCharacterSelect = (value) => {
-    console.log(`${value} was selected.`)
+  handleCharacterSelect(value) {
+    const foundLetter = allLetters.find(letter => letter.letter === value);
+    this.props.navigation.navigate('Details', { letterObject: foundLetter });
   }
 
   render() {
